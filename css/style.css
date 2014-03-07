@@ -1,0 +1,44 @@
+@charset "UTF-8";
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative; /* For scrollyspy */
+    padding-top: 10px; /* Account for fixed navbar */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#header{
+    /*border: 1px solid #dbc59e;*/
+    /*height: 90px;*/
+    /*width:100%;*/
+}
+
+#nav,#content,#footer #footer_container{
+    width: 925px;
+    margin:0 auto;
+}
+
+#content{
+   padding:10px;
+}
+#content td{
+    padding:10px;
+}
+#footer{
+    padding-top:40px;
+    padding-bottom:30px;
+    margin-top:100px;
+    color:#777;
+    border-top:1px solid #e5e5e5;
+}
+
+#footer ul{
+    list-style-type: none;
+}
+#footer ul li{
+    float:left;
+}
+
