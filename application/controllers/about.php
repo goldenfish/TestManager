@@ -6,7 +6,7 @@
  * Date: 14-3-1
  * Time: 下午4:35
  */
-class About extends CI_Controller{
+class About extends My_Controller{
 
    public function __construct()
     {
